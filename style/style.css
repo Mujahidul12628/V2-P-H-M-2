@@ -384,6 +384,13 @@ a.active {
 
     }
 
+    .fact_img {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 10px;
+    }
+
 
 
 
@@ -430,7 +437,19 @@ a.active {
         display: block;
         width: 100%;
         margin: 0 auto;
-        background-color: #e60064;
+    }
+
+    .sponsors_img {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .sponsors_img img {
+        margin: 15px 0;
     }
 }
 
