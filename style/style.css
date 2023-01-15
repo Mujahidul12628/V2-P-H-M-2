@@ -107,7 +107,7 @@ a.active {
     display: flex;
 }
 
-.quicList_img div {
+.quicList_img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5;
@@ -309,6 +309,8 @@ a.active {
     nav ul li a {
         font-size: 16px;
     }
+
+
 }
 
 
@@ -391,15 +393,6 @@ a.active {
         margin: 10px;
     }
 
-
-
-
-
-
-
-
-
-
     .love {
         display: flex;
         flex-direction: column;
@@ -450,6 +443,12 @@ a.active {
 
     .sponsors_img img {
         margin: 15px 0;
+    }
+
+    .quicList_img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
     }
 }
 
